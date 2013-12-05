@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ADC83606-1F71-47ED-A903-06A4AF91E036</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ISSE</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>98CC6680-7BAB-462D-BC48-AF2DF87C9333</key>
+		<string>http://github.com/julianstorer/JUCE.git</string>
+		<key>EA74A172-4B2A-4749-8E60-EAF60E1DD3AF</key>
+		<string>ssh://git.code.sf.net/p/isse/code</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>builds/MacOSX/ISSE.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>98CC6680-7BAB-462D-BC48-AF2DF87C9333</key>
+		<string>../../../../SDKs/juce</string>
+		<key>EA74A172-4B2A-4749-8E60-EAF60E1DD3AF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://git.code.sf.net/p/isse/code</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EA74A172-4B2A-4749-8E60-EAF60E1DD3AF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EA74A172-4B2A-4749-8E60-EAF60E1DD3AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>isse</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>98CC6680-7BAB-462D-BC48-AF2DF87C9333</string>
+			<key>IDESourceControlWCCName</key>
+			<string>juce</string>
+		</dict>
+	</array>
+</dict>
+</plist>
