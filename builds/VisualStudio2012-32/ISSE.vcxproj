@@ -19,13 +19,11 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-32|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v110_xp</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-32|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v110_xp</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
@@ -60,7 +58,7 @@
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\..\JuceLibraryCode;../../../extras/sdks/fftw/fftw-32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\JuceLibraryCode;..\..\..\SDKs\juce\modules;../../../extras/sdks/fftw/fftw-32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;_DEBUG;__SEPARATION_FLOAT_PRECISION__;__WINDOWS__;JUCER_VS2012_51F519D9=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -107,7 +105,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Full</Optimization>
-      <AdditionalIncludeDirectories>..\..\..\JuceLibraryCode;../../../extras/sdks/fftw/fftw-32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\JuceLibraryCode;..\..\..\SDKs\juce\modules;../../../extras/sdks/fftw/fftw-32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__SEPARATION_FLOAT_PRECISION__;__WINDOWS__;JUCER_VS2012_51F519D9=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -199,6 +197,17 @@
     <ClCompile Include="..\..\..\src\NewProjectMenu.cpp"/>
     <ClCompile Include="..\..\..\src\ISSLogger.cpp"/>
     <ClCompile Include="..\..\..\JuceLibraryCode\BinaryData.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_audio_basics\juce_audio_basics.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_audio_devices\juce_audio_devices.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_audio_formats\juce_audio_formats.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_audio_processors\juce_audio_processors.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_audio_utils\juce_audio_utils.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_core\juce_core.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_data_structures\juce_data_structures.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_events\juce_events.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_graphics\juce_graphics.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_gui_basics\juce_gui_basics.cpp"/>
+    <ClCompile Include="..\..\..\SDKs\juce\modules\juce_gui_extra\juce_gui_extra.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\src\SeparationEngine.h"/>
